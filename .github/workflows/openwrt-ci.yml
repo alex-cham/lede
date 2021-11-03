@@ -7,13 +7,13 @@
 #
 name: OpenWrt-CI
 
-on:
-  schedule:
-    - cron: 0 20 * * *
-  release:
-    types: [published]
+#on:
+#  schedule:
+#    - cron: 0 20 * * *
+#  release:
+#    types: [published]
 
-jobs:
+#jobs:
 
   build_openwrt:
 
